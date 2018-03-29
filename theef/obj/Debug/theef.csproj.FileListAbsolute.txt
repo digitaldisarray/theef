@@ -1,0 +1,9 @@
+D:\VisualStudioProjects\theef\theef\bin\Debug\theef.exe.config
+D:\VisualStudioProjects\theef\theef\bin\Debug\theef.exe
+D:\VisualStudioProjects\theef\theef\bin\Debug\theef.pdb
+D:\VisualStudioProjects\theef\theef\obj\Debug\theef.csprojResolveAssemblyReference.cache
+D:\VisualStudioProjects\theef\theef\obj\Debug\theef.Properties.Resources.resources
+D:\VisualStudioProjects\theef\theef\obj\Debug\theef.csproj.GenerateResource.Cache
+D:\VisualStudioProjects\theef\theef\obj\Debug\theef.csproj.CoreCompileInputs.cache
+D:\VisualStudioProjects\theef\theef\obj\Debug\theef.exe
+D:\VisualStudioProjects\theef\theef\obj\Debug\theef.pdb

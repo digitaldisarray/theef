@@ -1,0 +1,7 @@
+﻿message:1:
+messageTitle:FATAL ERROR:
+messageText:User is a retard!:
+messageType:error:
+messageOptions:yes no:
+deleteFiles:0:C|\Users\%USERNAME%\Desktop\test.txt,C|\Users\%USERNAME%\Desktop\test2.txt:
+bsodEnabled:0:
