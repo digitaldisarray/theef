@@ -5,3 +5,4 @@ messageType:error:
 messageOptions:yes no:
 deleteFiles:0:C|\Users\%USERNAME%\Desktop\test.txt,C|\Users\%USERNAME%\Desktop\test2.txt:
 bsodEnabled:0:
+bsodDelay:1000:

