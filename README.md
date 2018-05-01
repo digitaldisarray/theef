@@ -28,7 +28,7 @@
 ## TODO: Functionality
  - Multi threading
  - Module based features
- - GUI for making config files
+ - Cross platform tool for making config files
  - Better config format (json?)
  - Config parser cant tell if you don't want something enabled if you don't include it.
   
