@@ -1,3 +1,5 @@
+# Looking back on this, its crap. Don't use it (yet).
+
 # theef
 :zap: A fast, open source, and configurable payload.
 
